@@ -1,0 +1,52 @@
+
+    .task{
+        display: flex;
+        width: 54rem;
+        background-color: rgb(50,50,50);
+        box-sizing: border-box;
+        border-radius: 15px;
+        min-height: 4rem;
+        max-height: 6rem;
+        padding: 0 1rem;
+        align-items: center;
+        margin-top: 1.5rem;
+        justify-content: space-between;
+        .align{
+            display: flex;
+            align-items: center;
+        }
+        button{
+            margin-right: 1rem;
+            border-radius: 50%;
+            width: 1.5rem;
+            height: 1.5rem;
+            min-width: 24px;
+
+            background-color: transparent;
+            border: solid 2px rgb(39, 125, 206);
+            
+        }
+        .textChecked{
+            text-decoration: line-through;
+            color: rgb(150,150,150);
+        }
+        .buttonChecked{
+            color: rgb(200, 200, 200);
+            background-color: rgb(129, 91, 218);
+            border-color: rgb(129, 91, 218);
+        }
+        p{
+            word-wrap: normal;
+            width: auto;
+            overflow-wrap: anywhere;
+            max-width: 100%;
+            font-size: 1rem;
+            color: rgb(200, 200, 200);
+        }
+        .trash{
+            color:rgb(150,150,150);
+        }
+    }
+    .trash:hover{
+            filter: brightness(25);
+    }
